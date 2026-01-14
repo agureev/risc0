@@ -19,7 +19,7 @@ members = [
   "risc0/groth16-sys",
   "risc0/povw",
   "risc0/povw/guests",
-  "risc0/r0vm",
+  "risc0/r0vm", "risc0/serde",
   "risc0/sys",
   "risc0/tools",
   "risc0/zkos/v1compat",

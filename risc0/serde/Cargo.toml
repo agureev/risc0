@@ -1,0 +1,22 @@
+[package]
+name = "risc0-serde"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+homepage.workspace = true
+repository.workspace = true
+
+[dependencies]
+
+serde = { version = "1.0", default-features = false, features = [
+ "alloc",
+#  "derive",
+#  "rc",
+] }
+
+bytemuck = { version = "1.13", features = ["extern_crate_alloc"] }
+
+risc0-zkvm-platform = { workspace = true, features = [
+ # "rust-runtime",
+ # "export-getrandom",
+] }

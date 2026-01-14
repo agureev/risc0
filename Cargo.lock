@@ -7187,6 +7187,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "risc0-serde"
+version = "3.0.0"
+dependencies = [
+ "bytemuck",
+ "risc0-zkvm-platform",
+ "serde",
+]
+
+[[package]]
 name = "risc0-sys"
 version = "1.5.0"
 dependencies = [
